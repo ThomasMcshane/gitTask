@@ -39,12 +39,12 @@ print("Please answer each of the following questions with y or n so we can narro
 speciesList = ["dogs", "cats", "birds", "fish", "bunnies", "other species"]
 for s in speciesList:
     interest = input("Are you interested in meeting " + s + "?")
-    if interest == "y":
+    if interest and interest[0].lower() == "y":
         userInterests.append(s)
 
 # This series of questions allows users to indicate interest in different genders. Choices are added to their list of interests.
 genderList = ["good girls", "good boys", "any gender"]
 for g in genderList:
     interest = input("Are you interested in meeting " + g + "?")
-    if interest == "y":
+    if interest and interest[0].lower() == "y":
         userInterests.append(g)
