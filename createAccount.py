@@ -21,7 +21,7 @@ users = users.append(username)
 password = input("Set a password: ")
 
 # If the user's password isn't long enough, ask them to choose a different one.
-while len(password) <= 8:
+while len(password) < 8:
     print("Password must be at least 8 characters!")
     password = input("Set a longer password: ")
 
