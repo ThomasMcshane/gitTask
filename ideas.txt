@@ -1,4 +1,9 @@
+UI:
+===
 Swipe right/left for like/dislike
 Upload photos
+
+Matching:
+=========
 Answer basic questions (likes/dislikes)
 I am a "dog" seeking a "dog" etc.
