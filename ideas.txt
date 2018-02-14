@@ -2,8 +2,13 @@ UI:
 ===
 Swipe right/left for like/dislike
 Upload photos
+Upload bark/meow/etc sounds?
+Big buttons for paw control
+No texting...
 
 Matching:
 =========
 Answer basic questions (likes/dislikes)
 I am a "dog" seeking a "dog" etc.
+If both sides swip right, they are matched
+Straight to video chat option (no texting)?
