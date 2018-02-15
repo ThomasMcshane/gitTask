@@ -1,0 +1,5 @@
+- Research how to make secure logins
+- Teach pets to use smart phone
+- create a better user interface - dropdown menus?
+- Research the market - how to best match animals
+- Add colour to the UI draft. red/green buttons to clarify their intended use?

@@ -12,12 +12,14 @@ users = []
 username=input("Choose a user name: ")
 
 # If the username is taken, ask for a different one.
+#This will need to be changed so that it actually includes the list of registered users. As it is, it will always start off blank.
 while username in users:
     print("That username is already taken!")
     username=input("Choose a different user name: ")
 users = users.append(username)
 
 # User must choose a password.
+#This is not very secure. We should research safer ways to handle user log-in details.
 password = input("Set a password: ")
 
 # If the user's password isn't long enough, ask them to choose a different one.
@@ -26,6 +28,7 @@ while len(password) < 8:
     password = input("Set a longer password: ")
 
 # Here, the user indicates his/her species and gender.
+# Are we being inclusive here? Do we need to offer more options?
 userSpecies = input("Please enter your species: ")
 userGender = input("Please enter your gender: ")
 
